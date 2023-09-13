@@ -1,7 +1,9 @@
 package entities;
 
 public class GrantAccess {
-    private String roleId;
-    private String accountId;
+
+    private Role role;
+    private Account account;
+
 
 }
